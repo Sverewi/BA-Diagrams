@@ -1,9 +1,143 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
   <diagram name="Сторінка-1" id="YP4BHITy8auhP5NGIgft">
-    <mxGraphModel>
+    <mxGraphModel dx="865" dy="1233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-5" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-6" value="відвідувач" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-8" value="Система бронювання готелю" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="340" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-10" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="90" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-11" value="Внести інформацію про готель" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-10">
+          <mxGeometry y="22.5" width="160" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-16" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="40" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-17" value="Обрати доступні готелі" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-16">
+          <mxGeometry y="22.5" width="140" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-19" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="190" y="20" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-20" value="фільтрувати готелі за зірками" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-19">
+          <mxGeometry y="22.5" width="140" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-24" value="&amp;lt;&amp;lt;extended&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1aXUuAhVubwzFX3hOJz2-8" target="1aXUuAhVubwzFX3hOJz2-19">
+          <mxGeometry x="-0.2353" y="2" width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="100" as="sourcePoint" />
+            <mxPoint x="340" y="100" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-25" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="190" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-26" value="фільтрувати готелі за цінами" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-25">
+          <mxGeometry y="22.5" width="140" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-27" value="&amp;lt;&amp;lt;extended&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1aXUuAhVubwzFX3hOJz2-8" source="1aXUuAhVubwzFX3hOJz2-16" target="1aXUuAhVubwzFX3hOJz2-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="160" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-30" value="&amp;lt;&amp;lt;extended&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.931;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1aXUuAhVubwzFX3hOJz2-8" target="1aXUuAhVubwzFX3hOJz2-28">
+          <mxGeometry x="0.8321" y="16" width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="392" as="sourcePoint" />
+            <mxPoint x="330" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-31" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="40" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-32" value="забронювати готель&amp;nbsp;" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-31">
+          <mxGeometry y="22.5" width="140" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-33" value="вказати дати заїзду і виїзду" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="144" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1aXUuAhVubwzFX3hOJz2-8" source="1aXUuAhVubwzFX3hOJz2-33" target="1aXUuAhVubwzFX3hOJz2-32">
+          <mxGeometry x="-0.9366" y="-12" width="160" relative="1" as="geometry">
+            <mxPoint x="40" y="300" as="sourcePoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-36" value="вказати дані про проживаючих" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="10" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.557;exitY=0.083;exitDx=0;exitDy=0;entryX=0.193;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1aXUuAhVubwzFX3hOJz2-8" source="1aXUuAhVubwzFX3hOJz2-36" target="1aXUuAhVubwzFX3hOJz2-31">
+          <mxGeometry x="-0.9366" y="-12" width="160" relative="1" as="geometry">
+            <mxPoint x="224" y="270" as="sourcePoint" />
+            <mxPoint x="190" y="244" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="90" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-44" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-8">
+          <mxGeometry x="90" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-45" value="Підтвердити бронювання" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-44">
+          <mxGeometry y="22.5" width="160" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-28" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-29" value="Внести інформацію для онлайн оплати" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-28">
+          <mxGeometry y="22.5" width="160" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-38" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="290" as="sourcePoint" />
+            <mxPoint x="170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-39" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=0.079;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1aXUuAhVubwzFX3hOJz2-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="279.5" as="sourcePoint" />
+            <mxPoint x="170" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-40" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=0.443;exitY=0.693;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1aXUuAhVubwzFX3hOJz2-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-47" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-48" value="Підтвердити онлайн оплату" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="1aXUuAhVubwzFX3hOJz2-47">
+          <mxGeometry y="22.5" width="160" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-49" value="&amp;lt;&amp;lt;extended&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.574;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1aXUuAhVubwzFX3hOJz2-44" target="1aXUuAhVubwzFX3hOJz2-47">
+          <mxGeometry x="-0.4105" y="24" width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="462" as="sourcePoint" />
+            <mxPoint x="419" y="512" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aXUuAhVubwzFX3hOJz2-43" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1aXUuAhVubwzFX3hOJz2-5" target="1aXUuAhVubwzFX3hOJz2-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="545" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
